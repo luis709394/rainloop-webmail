@@ -34,7 +34,7 @@ function mergeLangStructure($aFromLang, $aEngLang, &$iCount = 0)
 function saveLangStructure($sLangFile, $aLang)
 {
 	$aResultLines = array();
-//	$aResultLines[] = '; '.$sLangFile;
+/*	$aResultLines[] = '; '.$sLangFile;*/
 
 	foreach ($aLang as $sSectionKey => $aSectionValue)
 	{
